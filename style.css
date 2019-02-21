@@ -231,7 +231,7 @@ a {
 }
 
 .info-title h4 {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .projects {
@@ -287,7 +287,7 @@ a {
 
 .open-road {
     width: calc(100vw / 3);
-    background: url(Images/open-road.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Images/road-trip.jpeg);
     background-size: cover;
     display: flex;
     height: 100%
@@ -295,7 +295,7 @@ a {
 
 .wild-fed {
     width: calc(100vw / 3);
-    background: url(Images/wild-fed.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Images/currants.jpeg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -304,7 +304,7 @@ a {
 
 .pomify {
     width: calc(100vw / 3);
-    background: url(Images/pomify.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Images/pomify.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -675,7 +675,7 @@ a {
     color: #5e5e5e;
 }
 
-.about me a {
+.about-me a {
     text-decoration: underline;
 }
 
@@ -821,7 +821,7 @@ a {
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
-    background-color: #986B4D;
+    background-color: #4385F5;
     padding: 18px;
     font-size: 0.8em;
     font-weight: 600;
@@ -835,19 +835,32 @@ a {
     border-bottom: 2px solid #5e5e5e;
 }
 
-.t-timeline {
+.project-banner {
     width: 100%;
-    height: 720px;
-    background-image: url('Images/veda-dark.jpg');
+    height: 100vh;
     background-size: cover;
     display: flex;
 }
 
-.t-timeline h1 {
+.project-banner h1 {
     font-size: 3.7em;
     margin-bottom: 0;
 }
 
+#open-road {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Images/road-trip.jpeg');
+    background-size: cover;
+}
+
+#wild-fed {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Images/currants.jpeg');
+    background-size: cover;
+}
+
+#pomify {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Images/pomify.jpg');
+    background-size: cover;
+}
 
 .timeline-description {
     margin: auto;
@@ -859,6 +872,9 @@ a {
 
 .timeline-description p {
     margin-bottom: 30px;
+    text-transform: none;
+    font-family: "Open Sans";
+    font-weight: 300;
 }
 
 .timeline-description a {
@@ -866,39 +882,13 @@ a {
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
-    background-color: #986B4D;
+    background-color: #4385F5;
     padding: 14px 35px;
     font-size: 0.8em;
     font-weight: 600;
     letter-spacing: 0.09em;
     border-radius: 3%;
     cursor: pointer;
-}
-
-.c-construction {
-    width: 100%;
-    height: 720px;
-    background-image: url('Images/cc-dark.jpg');
-    background-size: cover;
-    display: flex;
-}
-
-.c-construction h1 {
-    font-size: 3.7em;
-    margin-bottom: 0;
-}
-
-.p-pomify {
-    width: 100%;
-    height: 720px;
-    background-image: url('Images/pomify-dark.jpg');
-    background-size: cover;
-    display: flex;
-}
-
-.p-pomify h1 {
-    font-size: 3.7em;
-    margin-bottom: 0;
 }
 
 /* CONTACT PAGE */
